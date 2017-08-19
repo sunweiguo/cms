@@ -1,0 +1,4 @@
+com\njupt\swg\util\AbstractDbUnitTestCase.class
+com\njupt\swg\util\DbUtil.class
+com\njupt\swg\util\EntitiesHelper.class
+com\njupt\swg\util\TestUtil.class

@@ -1,0 +1,38 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+   <parent>
+  	<groupId>com.njupt.swg.cms</groupId>
+  	<artifactId>cms-parent</artifactId>
+  	<version>0.0.1-SNAPSHOT</version>
+  	<relativePath>../cms-parent/pom.xml</relativePath>
+  </parent>
+  <groupId>com.njupt.swg.cms</groupId>
+  <artifactId>cms-topic</artifactId>
+  <packaging>jar</packaging>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>cms-topic</name>
+  <url>http://maven.apache.org</url>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+    </dependency>
+    <dependency>
+       <groupId>com.njupt.swg.cms</groupId>
+  	   <artifactId>cms-core</artifactId>
+     </dependency>
+     <dependency>
+	    <groupId>commons-lang</groupId>
+	    <artifactId>commons-lang</artifactId>
+	</dependency>
+	<dependency>
+		  <groupId>net.coobird</groupId>
+		  <artifactId>thumbnailator</artifactId>
+	</dependency>	
+	<dependency>
+	    <groupId>commons-io</groupId>
+	    <artifactId>commons-io</artifactId>
+	</dependency>
+  </dependencies>
+</project>
